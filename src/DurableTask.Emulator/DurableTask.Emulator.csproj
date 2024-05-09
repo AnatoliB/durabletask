@@ -9,7 +9,6 @@
   </PropertyGroup>
 
   <ItemGroup Condition="'$(TargetFramework)' == 'net462'">
-    <PackageReference Include="Newtonsoft.Json" version="7.0.1" />
   </ItemGroup>
   
   <ItemGroup Condition="'$(TargetFramework)' == 'netstandard2.0'">
